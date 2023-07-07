@@ -1,0 +1,246 @@
+@import './template/colors.scss';
+
+.call_to_action_wrap {
+    color: $color_text_black;
+    max-height: 900px;
+    padding-top: 30px;
+    display: flex;
+    background: var(--background, linear-gradient(90deg, #F3F1F2 56.51%, #E7E1E2 100%));
+}
+
+.call_to_action_content_wrap {
+    width: 50%;
+    text-align: start;
+    padding: 5% 0% 0% 15%;
+}
+
+.call_to_action_main_text {
+    padding-bottom: 8%;
+    position: relative;
+}
+
+.call_to_action_main_text_developer {
+    font-size: 44px;
+    font-weight: 800;
+}
+
+.call_to_action_main_text_site {
+    font-size: 140px;
+    font-weight: 800;
+    z-index: 1;
+    position: relative;
+}
+
+.call_to_action_main_text_buisness {
+    color: $color_red_main;
+    font-size: 44px;
+    font-weight: 800;
+}
+
+.call_to_action_individual_approach_wrap {
+    border: 2px solid $color_warning;
+    border-radius: 50%;
+    transform: rotate(-22deg);
+    width: 172px;
+    height: 61px;
+    position: absolute;
+    right: 23%;
+    top: 40px;
+    z-index: 0;
+}
+
+.call_to_action_individual_approach_text {
+    transform: rotate(22deg);
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 0px 0px 35px;
+}
+.call_to_action_list_wrap {
+    font-size: 20px;
+}
+
+.call_to_action_create_button_wrap {
+    margin-top: 30px;
+    max-width: 400px;
+    height: 70px;
+}
+
+.call_to_action_create_button {
+    background: $color_red_main;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    color: $color_light;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.call_to_action_img_wrap {
+    width: 50%;
+}
+
+.call_to_action_img {
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width: 1700px) {
+    .call_to_action_individual_approach_wrap {
+        right: 9%;
+        top: 35px;
+    }
+}
+
+@media(max-width: 1580px) {
+    .call_to_action_individual_approach_wrap {
+        right: 7%;
+        top: 35px;
+    }
+}
+
+@media(max-width: 1530px) {
+    .call_to_action_individual_approach_wrap {
+        right: 4%;
+        top: 35px;
+    }
+}
+
+@media(max-width: 1460px) {
+    .call_to_action_individual_approach_wrap {
+        right: 0%;
+        top: 35px;
+    }
+}
+
+@media(max-width: 1390px) {
+    .call_to_action_individual_approach_wrap {
+        right: -5%;
+        top: 35px;
+    }
+}
+
+
+@media(max-width: 1310px) {
+    .call_to_action_main_text_site {
+        font-size: 100px;
+    }
+    .call_to_action_content_wrap {
+        padding-left: 10%;
+    } 
+    .call_to_action_individual_approach_wrap {
+        right: 19%;
+        top: 20px;
+    }
+}
+
+@media(max-width: 1230px) {
+    .call_to_action_individual_approach_wrap {
+        right: 15%;
+        top: 20px;
+    }
+}
+
+@media(max-width: 1150px) {
+    .call_to_action_individual_approach_wrap {
+        right: 10%;
+        top: 20px;
+    }
+}
+
+@media(max-width: 1070px) {
+    .call_to_action_individual_approach_wrap {
+        right: 3%;
+        top: 20px;
+    }
+}
+
+@media(max-width: 990px) {
+    .call_to_action_individual_approach_wrap {
+        right: -5%;
+        top: 20px;
+    }
+}
+
+@media(max-width: 860px) {
+    .call_to_action_wrap {
+        flex-direction: column;
+    }
+
+    .call_to_action_content_wrap {
+        width: 100%;
+    } 
+    .call_to_action_img_wrap {
+        width: 100%;
+        height: auto;
+    }
+    .call_to_action_create_button_wrap {
+        max-width: 90%;
+        margin-bottom: 5px;
+    }
+    .call_to_action_list_wrap {
+        font-size: 16px;
+    }
+    .call_to_action_individual_approach_wrap {
+        right: 46%;
+        top: 20px;
+    }
+}
+
+@media(max-width: 790px) {
+    .call_to_action_individual_approach_wrap {
+        right: 41%;
+        top: 20px;
+    }
+}
+
+@media(max-width: 700px) {
+    .call_to_action_individual_approach_wrap {
+        right: 33%;
+        top: 20px;
+    }
+}
+
+@media(max-width: 620px) {
+    .call_to_action_individual_approach_wrap {
+        right: 25%;
+        top: 20px;
+    }
+}
+
+@media(max-width: 560px) {
+    .call_to_action_main_text_developer {
+        font-size: 30px;
+    }
+    .call_to_action_main_text_site {
+        font-size: 80px;
+    }
+    .call_to_action_main_text_buisness {
+        font-size: 30px;
+    }
+    .call_to_action_list_wrap {
+        font-size: 12px;
+    }
+    .call_to_action_create_button_wrap {
+        height: 45px;
+    }
+    .call_to_action_individual_approach_wrap {
+        right: 27%;
+        top: 0px;
+    }
+}
+
+@media(max-width: 470px) {
+    .call_to_action_individual_approach_wrap {
+        right: 12%;
+        top: 0px;
+    }
+}
+
+@media(max-width: 400px) {
+    .call_to_action_individual_approach_wrap {
+        right: 1%;
+        top: 0px;
+    }
+}
