@@ -20,7 +20,7 @@ const ReviewBlocktemplate = ({item}) => {
                 </div>
                 <div className='review_content_date_and_star'>
                     <p className='review_content_date'>{item.date}</p>
-                    <p className='review_content_star'>
+                    <div className='review_content_star'>
                     <StarRatings
                     rating={5}
                     starRatedColor="#ffd700"
@@ -29,7 +29,7 @@ const ReviewBlocktemplate = ({item}) => {
                     starHoverColor="#ffd700"
                     starDimension="15px"
                   />
-                    </p>
+                    </div>
                 </div>
                 <div className='review_content_text_wrap'>
                     <p className='review_content_text'>{item.text}</p>

@@ -64,7 +64,7 @@ const Footer = () => {
             </div>
             <div className="footer_contacts_post_wrap">
                 <SiMaildotru className="footer_contacts_post_icon"/>
-                <p className="footer_contacts_post_text">email.gmail.com</p>
+                <p className="footer_contacts_post_text">nexuslab2000@gmail.com</p>
             </div>
         </div>
       </div>

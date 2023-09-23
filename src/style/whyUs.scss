@@ -2,7 +2,6 @@
 .why_us_title_wrap {
     display: flex;
     justify-content: center;
-    padding-top: 20px;
 }
 
 .why_us_title {
@@ -84,7 +83,7 @@
 
 @media(max-width:860px) {
     .why_us_title_wrap {
-        margin-top: 100px;
+        margin-top: 20px;
     }
 
     .why_us_main_content_and_icons_wrap {

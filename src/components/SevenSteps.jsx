@@ -9,7 +9,7 @@ import { AiOutlineForm } from 'react-icons/ai';
 import { SiSpeedtest } from 'react-icons/si';
 import {MdOutlineRocketLaunch} from 'react-icons/md';
 import '../style/sevenSteps.scss';
-import '../style/roundBlock.scss'
+import '../style/roundBlock.scss';
 const SevenSteps = () => {
     const [dataArray] = useState([
         {
@@ -49,7 +49,7 @@ const SevenSteps = () => {
         },
     ]);
     return (
-        <div>
+        <div className='seven_step_wrap'>
             <div>
                 <TitleTemplate text={'Сайт за 7 кроків'}/>
             </div>

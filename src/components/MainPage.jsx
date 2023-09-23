@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import CallToAction from "./CallToAction";
 import WhyWorkWithUs from "./WhyWorkWithUs";
 import WeGuaranteeAndMainDirections from "./WeGuaranteeAndMainDirections";
@@ -7,17 +7,21 @@ import FocusAtention from "./FocusAtention";
 import SevenSteps from "./SevenSteps";
 import Reviews from "./Reviews";
 import SiteDream from "./SiteDream";
+import MessengerIcons from "./iconsBlocks/MessengerIcons";
+import ContactForm from "./template/ContactForm";
 const MainPage = () => {
+  console.log('main page');
   return (
     <div>
       <CallToAction />
       <WhyWorkWithUs />
-      <WeGuaranteeAndMainDirections />
+      <WeGuaranteeAndMainDirections /> 
       <Portfolio />
       <FocusAtention/>
       <SevenSteps/>
-      <Reviews/>
       <SiteDream/>
+      <Reviews/>
+      <input style={{width: '100%'}}/>
     </div>
   );
 };

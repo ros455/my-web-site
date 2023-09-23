@@ -1,5 +1,5 @@
 .reviews_wrap {
-
+    background-image: url('../../public/img/bc-review-decstop.svg');
 }
 
 .reviews_text_wrap {
@@ -9,11 +9,25 @@
 }
 
 .reviews_text {
-    width: 30%;
+    width: 50%;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .reviews_all_items_wrap {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+@media(max-width:1400px) {
+    .reviews_text {
+        width: 80%;
+    }
+}
+
+@media(max-width:450px) {
+    .reviews_text {
+        width: 90%;
+    }
 }

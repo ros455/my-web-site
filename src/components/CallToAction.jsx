@@ -6,12 +6,14 @@ const CallToAction = () => {
       <div className="call_to_action_content_wrap">
         <div className="call_to_action_main_text">
           <p className="call_to_action_main_text_developer">Розробка</p>
+          <div className="call_to_action_main_text_site_block">
+          <p className="call_to_action_main_text_site">Сайтів</p>
           <div className="call_to_action_individual_approach_wrap">
             <p className="call_to_action_individual_approach_text">
               З індивідуальним підходом
             </p>
           </div>
-          <p className="call_to_action_main_text_site">Сайтів</p>
+          </div>
           <p className="call_to_action_main_text_buisness">ДЛЯ БІЗНЕСУ</p>
         </div>
         <div className="call_to_action_list_wrap">

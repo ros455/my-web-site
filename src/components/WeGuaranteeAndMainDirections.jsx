@@ -36,6 +36,8 @@ const WeGuaranteeAndMainDirections = () => {
             text: 'Підтримка сайтів'
         },
     ]);
+
+    // Problem
     return (
         <div className='guarante_directions_wrap'>
             <div className='guarante_wrap'>

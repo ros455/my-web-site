@@ -6,13 +6,15 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import MainPage from './components/MainPage';
 import PortfolioPages from './components/pages/PortfolioPages';
+
 function App() {
+  console.log('Work');
   return (
     <div className="App">
       <Header/>
       <Routes>
         <Route path='/' element={<MainPage />}/>
-        <Route path='/portfolio/:id' element={<PortfolioPages  />}/>
+        <Route path='/portfolio/:id' element={<PortfolioPages/>}/>
       </Routes>
       <Footer/>
     </div>
